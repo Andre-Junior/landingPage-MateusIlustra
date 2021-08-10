@@ -1,2 +1,25 @@
-.red {
-  background-color: white; }
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+.navigation {
+  background: #262626;
+  display: flex; }
+  .navigation-ul {
+    color: #fff; }
+  .navigation-li {
+    display: inline-block;
+    font-size: 3rem;
+    margin: 1rem 2rem 0px 2rem; }
+  .navigation-ul-img {
+    margin-left: auto;
+    margin-right: 1rem; }
