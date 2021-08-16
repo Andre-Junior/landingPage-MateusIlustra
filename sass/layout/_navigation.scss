@@ -2,6 +2,7 @@
     background: $color-primary;
     display: flex;
     height: 8vh;
+    
 
     &-ul {
         color: $color-white;
@@ -12,9 +13,17 @@
         display: inline-block;
         font-size: 3rem;
         margin: 1rem 2rem 0px 2rem;;
+        cursor: pointer;
+        
 
         &-img{
-            margin-left: 1rem;
+            margin-left: 2rem;
+            cursor: pointer;
+        }
+
+        &:hover {
+            color: rgb(131, 131, 224);
+            transition: 0.5s;
         }
     }
 
@@ -27,6 +36,16 @@
     a {
         color: $color-white;
         text-decoration: none;
+    }
+
+    svg {
+        margin-left: 2rem;
+        cursor: pointer;
+        
+        &:hover {
+            fill: rgb(131, 131, 224);
+            transition: 0.5s;
+        }
     }
 }
 
