@@ -56,12 +56,41 @@ body {
     display: inline-block;
     font-size: 3rem;
     margin: 1rem 2rem 0px 2rem; }
+    .navigation-li-img {
+      margin-left: 1rem; }
   .navigation-ul-img {
     margin-left: auto;
     margin-right: 1rem;
     margin-top: 1rem; }
+  .navigation a {
+    color: #fff;
+    text-decoration: none; }
 
 .sticky {
   position: fixed;
   top: 0;
   width: 100%; }
+
+.section-about {
+  background-color: #262626;
+  height: 92vh;
+  color: #fff;
+  display: inline-block;
+  width: 100%; }
+  .section-about h1 {
+    font-size: 3rem;
+    margin-left: 6rem;
+    margin-top: 4rem;
+    font-weight: 100; }
+  .section-about-content {
+    display: flex; }
+    .section-about-content p {
+      width: 73.6rem;
+      height: 37rem;
+      margin-left: 12rem;
+      margin-top: 3rem;
+      font-size: 2rem;
+      line-height: 3.5rem;
+      font-weight: 100; }
+    .section-about-content img {
+      width: 48rem; }

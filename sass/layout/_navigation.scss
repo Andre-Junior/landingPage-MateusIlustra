@@ -12,12 +12,21 @@
         display: inline-block;
         font-size: 3rem;
         margin: 1rem 2rem 0px 2rem;;
+
+        &-img{
+            margin-left: 1rem;
+        }
     }
 
     &-ul-img {
         margin-left: auto;
         margin-right: 1rem;
         margin-top: 1rem;
+    }
+
+    a {
+        color: $color-white;
+        text-decoration: none;
     }
 }
 
